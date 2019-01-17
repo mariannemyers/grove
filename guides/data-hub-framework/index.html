@@ -1,0 +1,287 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html itemscope itemtype="http://schema.org/Organization" id="ie6" class="ie ie-old" lang="en-US"><![endif]-->
+<!--[if IE 7 ]>   <html itemscope itemtype="http://schema.org/Organization" id="ie7" class="ie ie-old" lang="en-US"><![endif]-->
+<!--[if IE 8 ]>   <html itemscope itemtype="http://schema.org/Organization" id="ie8" class="ie ie-old" lang="en-US"><![endif]-->
+<!--[if IE 9 ]>   <html itemscope itemtype="http://schema.org/Organization" id="ie9" class="ie" lang="en-US"><![endif]-->
+<!--[if gt IE 9]><!--><html itemscope itemtype="http://schema.org/Organization" lang="en-US"><!--<![endif]-->
+<head>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <title>Grove and DHF - Grove Documentation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- Favicons -->
+    <!--link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64 96x96" href="/grove/favicon.ico"-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/grove/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/grove/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/grove/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/grove/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/grove/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/grove/images/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/grove/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="application-name" content="Grove Documentation - Grove, a toolkit full of tooling, templates, and other resources that help with building UI applications on top of MarkLogic.">
+
+    <!--script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-6638631-15', 'auto');
+      ga('send', 'pageview');
+
+    </script-->
+
+    <!-- Facebook Pixel Code -->
+    <!--script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1879746318909687'); // Insert your pixel ID here.
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1879746318909687&ev=PageView&noscript=1"
+    /></noscript-->
+    <!-- DO NOT MODIFY -->
+    <!-- End Facebook Pixel Code -->
+    <link type="text/css" rel="stylesheet" href="/grove/assets/bundle.css">
+</head>
+<body class="">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/grove/">
+                  <span class="logo">
+                    <img src="/grove/images/logo-marklogic.svg" width="180px" height="38px" alt="MarkLogic" title="MarkLogic" scale="0">
+                  </span>
+                  Grove Documentation
+                  <img style="filter: invert(61%);" src="/grove/images/grove-favicon.svg" width="36x" height="36px">
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    
+                        <li  >
+                            
+                            <a href="/grove/">About Grove</a>
+                            
+                        </li>
+                    
+                        <li  >
+                            
+                            <a href="https://github.com/marklogic-community/grove">GitHub</a>
+                            
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="side-nav col-md-3 hide-small">
+          <div class="panel panel-default">
+  <div class="panel-heading">Navigation</div>
+  <ul class="list-group">
+  
+  <li  class="list-group-item"  >
+    
+    <a href="/grove/">About Grove</a>
+    
+    
+  </li>
+  
+  <li  class="list-group-item"  >
+    
+    <a href="">Guides</a>
+    
+    
+      <ul class="list-group">
+  
+  <li  class="list-group-item"  >
+    
+    <a href="/grove/guides/getting-started/">Getting Started</a>
+    
+    
+  </li>
+  
+  <li  class="list-group-item"  >
+    
+    <a href="/grove/guides/react/">React UI</a>
+    
+    
+  </li>
+  
+  <li  class="list-group-item"  >
+    
+    <a href="/grove/guides/data-hub-framework">Grove and DHF</a>
+    
+    
+  </li>
+  
+</ul>
+
+    
+  </li>
+  
+  <li  class="list-group-item"  >
+    
+    <a href="/grove/faqs/">FAQs</a>
+    
+    
+  </li>
+  
+  <li  class="list-group-item"  >
+    
+    <a href="https://github.com/marklogic-community/grove">Grove on GitHub</a>
+    
+    
+  </li>
+  
+</ul>
+
+</div>
+
+        </div>
+        <div class="col-md-9">
+          <p>We often want to run Grove as a UI working alongside a <a href="https://marklogic.github.io/marklogic-data-hub/">MarkLogic Data Hub Framework (DHF)</a>. This page demonstrates how to do that.</p>
+
+<h1 id="recommended-method-to-run-grove-with-dhf">Recommended Method to Run Grove with DHF</h1>
+
+<p>In order to run a Grove UI project alongside the MarkLogic Data Hub Framework (DHF) project, we recommend creating a Grove project-specific app-server, which has its own modules database but points at the content database with the data you wish to visualize: most often the DHF project’s FINAL database. The DHF project will be responsible for managing the content database (including setting up indexes - needed for facets - and security permissions), as well as the content database’s related triggers and schemas databases, while the Grove project will manage the Grove project’s specific app-server and modules database.</p>
+
+<p>Note that this implies some coordination between the DHF project and Grove. If possible, it is easiest to manage both projects within the same code repository. The Grove files should all be within a dedicated parent directory. (For example, <code class="highlighter-rouge">grove/ui</code>, <code class="highlighter-rouge">grove/middle-tier</code>, and <code class="highlighter-rouge">grove/marklogic</code>. Note that there is nothing magic about the <code class="highlighter-rouge">grove</code> directory name, so call it whatever you want.)</p>
+
+<p>If you need more independence than that provided by this recommended approach, you may consider replicating the DHF data to a Grove-specific content database - but that is currently beyond the scope of this guide.</p>
+
+<p>You can accomplish this recommended approach by making some changes inside the <code class="highlighter-rouge">marklogic</code> directory of your Grove project. Grove projects generated using the grove-cli’s <code class="highlighter-rouge">grove new</code> command ship with this <code class="highlighter-rouge">marklogic</code> directory, which contains configuration files for a standalone MarkLogic database, optimized for Grove’s sample data set.</p>
+
+<p>The advantages to this approach include:</p>
+
+<ul>
+  <li>It does not pollute the DHF project’s modules database.</li>
+  <li>It creates a line between configuration to support the Data Hub project and configuration to support the Grove UI project (with some exceptions, described in the next section on downsides). For example, the Grove project can set up its own users, roles, and security permissions (though those roles need to be consistent with doc permissions set in DHF).</li>
+</ul>
+
+<p>There are some downsides to this approach:</p>
+
+<ul>
+  <li>You will have two different ml-gradle installations, one for the Grove project and one for the DHF project, which can be confusing and time-consuming, because you have to run gradle tasks in two places, for example when bootstrapping the project. You could mitigate this by creating scripts that automatically run gradle scripts in both places.</li>
+  <li>You will have to add some configuration to the DHF project in order to support the Grove UI. For example, the DHF project may need to add new indexes in order to support facets for the Grove UI. Content permissions will need to correspond to Grove users and roles. And if triggers and schemas are desired for the Grove project, those will have to be set up in the DHF ml-gradle configuration. (Note that this kind of demand will come from any downstream system connecting to a DHF content database.)</li>
+  <li>Any CRUD operations performed by the Grove project will write to the DHF project’s content database.</li>
+</ul>
+
+<h2 id="how-to-implement-the-recommended-approach-step-by-step">How to implement the recommended approach, step-by-step:</h2>
+
+<ol>
+  <li>
+    <p>Run <code class="highlighter-rouge">grove config</code> at the top-level of your Grove project to ensure that, for example, an available port is specified.</p>
+  </li>
+  <li>
+    <p>Delete <code class="highlighter-rouge">content-database.json</code>, <code class="highlighter-rouge">schemas-database.json</code>, and <code class="highlighter-rouge">triggers-database.json</code> from <code class="highlighter-rouge">marklogic/ml-config/databases/</code>.</p>
+  </li>
+  <li>
+    <p>Edit <code class="highlighter-rouge">marklogic/ml-config/servers/app-server</code> and <code class="highlighter-rouge">marklogic/ml-config/rest-api.json</code> to point to the correct content-database name.</p>
+  </li>
+  <li>
+    <p>Edit the search options used by your Grove middle-tier’s search route (by default, these search options are called <code class="highlighter-rouge">all</code> and are found in the <code class="highlighter-rouge">marklogic/ml-modules/options/all.xml</code> file) to remove the following blocks:</p>
+
+    <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nt">&lt;constraint</span> <span class="na">name=</span><span class="s">"eyecolor"</span><span class="nt">&gt;</span>
+   ...
+ <span class="nt">&lt;/constraint&gt;</span>
+ <span class="nt">&lt;constraint</span> <span class="na">name=</span><span class="s">"docFormat"</span><span class="nt">&gt;</span>
+   ...
+ <span class="nt">&lt;/constraint&gt;</span>
+ <span class="nt">&lt;constraint</span> <span class="na">name=</span><span class="s">"gender"</span><span class="nt">&gt;</span>
+   ...
+ <span class="nt">&lt;/constraint&gt;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Make any other necessary changes to the search options file. For example, you may need to remove the <code class="highlighter-rouge">&lt;additional-query&gt;</code> specifying that only docs in the <code class="highlighter-rouge">data</code> collection are returned.</p>
+  </li>
+  <li>
+    <p>Run <code class="highlighter-rouge">./gradlew mlDeploy</code> from inside the <code class="highlighter-rouge">marklogic</code> directory. This command will deploy the new configuration, but it will not change the DHF project’s content database, because you have removed all related configuration files.</p>
+  </li>
+</ol>
+
+<h2 id="less-recommended-option-remove-grove-specific-config-altogether">Less-Recommended Option: Remove Grove-specific Config Altogether</h2>
+
+<p>The Grove middle-tier and front-end just need a MarkLogic REST server to work against. So, you can remove the Grove project’s ml-gradle configuration altogether and just use an app-server provided by the DHF project.</p>
+
+<p>As with the recommended option, there will be dependencies on configuration provided by the DHF project, so keeping both in the same code repository has some advantages for mutual versioning.</p>
+
+<p>This approach in some ways simplifies things because all MarkLogic management is handled in one place: in the DHF project. The Grove project is clearly just a downstream consumer.</p>
+
+<p>A downside is that you will have to add Grove-specific modules, rest extensions, and named search options to the DHF project’s modules database.</p>
+
+<p>Steps:</p>
+
+<ol>
+  <li>Determine which host and port the DHF FINAL app server is running on.</li>
+  <li>Go to top level of your Grove project (the directory with <code class="highlighter-rouge">middle-tier</code> and <code class="highlighter-rouge">ui</code> directories inside it), run <code class="highlighter-rouge">grove config</code> and give it the host and port of the DHF FINAL app server.</li>
+  <li>Use a set of named search options provided by the DHF project. Do this by editing <code class="highlighter-rouge">middle-tier/routes/api/index.js</code>: Find the mounted search route, around lines 48-58, and change the namedOptions to <code class="highlighter-rouge">'final-entity-options'</code> (or any other named options available in your FINAL database module). Note that you need to include quotes around <code class="highlighter-rouge">'final-entity-options'</code>. (Note that you can go to {ML-HOST}:{FINAL-REST-PORT}/v1/config/query to see what named options are available.)</li>
+  <li>Migrate modules you are using to the DHF project. (These are stored in <code class="highlighter-rouge">marklogic/ml-modules</code>.)</li>
+  <li>Run <code class="highlighter-rouge">./gradlew mlUndeploy</code> from <code class="highlighter-rouge">marklogic</code> if you ran <code class="highlighter-rouge">mlDeploy</code> previously, to get rid of Grove-specific artifacts.</li>
+  <li>remove the entire “marklogic/” directory.</li>
+</ol>
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                    Copyright © 2016-2019 MarkLogic Corporation. All Rights Reserved. MARKLOGIC® is a registered trademark of MarkLogic Corporation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="/grove/js/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="/grove/assets/bundle.js" id="1"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-79716597-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
+
